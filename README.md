@@ -4,7 +4,7 @@ Catalina dynamic wallpaper useable as gnome background which changes during the 
 Real scheludes with twenty minutes transitions.
 
 <p align="center">
-  <img width="478" height="326" src="gnome-catalina-timed-wallpaper.gif">
+  <img width="478" height="326" src="gnome-kde-catalina-dynamic-wallpaper.gif">
 </p>
 
 # Dependencies
