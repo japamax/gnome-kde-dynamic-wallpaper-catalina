@@ -1,0 +1,80 @@
+{
+  "name": "Catalina",
+  "preview": "catalina_dynamic-0600.jpg",
+    "images": [
+    {
+      "azimuth": 2.73,
+      "elevation": -45.17,
+      "filename": "catalina_dynamic-0000.jpg"
+    },
+    {
+      "azimuth": 56.83,
+      "elevation": -24.75,
+      "filename": "catalina_dynamic-0300.jpg"
+    },
+    {
+      "azimuth": 92.15,
+      "elevation": 0.98,
+      "filename": "catalina_dynamic-0600.jpg"
+    },
+    {
+      "azimuth": 128.26,
+      "elevation": 29.67,
+      "filename": "catalina_dynamic-0900.jpg"
+    },
+    {
+      "azimuth": 182.68,
+      "elevation": 43.0,
+      "filename": "catalina_dynamic-1200.jpg"
+    },
+    {
+      "azimuth": 235.51,
+      "elevation": 27.56,
+      "filename": "catalina_dynamic-1500.jpg"
+    },
+    {
+      "azimuth": 270.81,
+      "elevation": -1.41,
+      "filename": "catalina_dynamic-1800.jpg"
+    },
+    {
+      "azimuth": 307.09,
+      "elevation": -31.25,
+      "filename": "catalina_dynamic-2100.jpg"
+    }
+  ]
+  "images": [
+      {
+        "filename": "",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-0600.jpg",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-0900.jpg",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-1200.jpg",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-1500.jpg",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-1800.jpg",
+        "duration": "10800.0"
+      },
+      {
+        "filename": "catalina_dynamic-2100.jpg",
+        "duration": "10800.0"
+      }
+    ],
+}
