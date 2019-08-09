@@ -3,7 +3,7 @@
 pkgbase='catalina-dynamic-wallpaper'
 pkgname=("${pkgbase}-timed-gnome" "${pkgbase}-kde" "${pkgbase}-images" )
 _gitname='gnome-kde-catalina-dynamic-wallpaper'
-pkgver=1.0.r0.g8ffdc2f
+pkgver=1.0.r7.g1700ed7
 pkgrel=1
 arch=('any')
 url="https://github.com/japamax/${_gitname}"
@@ -26,7 +26,7 @@ pkgver() {
 	pkgdesc="GNOME time based Catalina wallpaper with real scheludes"
 	cd "${srcdir}/${_gitname}"
 	install -dm755 "${pkgdir}/usr/share/backgrounds/gnome"
-	ln -s "/usr/share/dynamicwallpapers/catalina/Images" "${pkgdir}/usr/share/backgrounds/gnome/catalina"
+	ln -s "/usr/share/dynamicwallpapers/catalina/images" "${pkgdir}/usr/share/backgrounds/gnome/catalina"
 	install -Dm644 catalina-timed.xml "${pkgdir}/usr/share/backgrounds/gnome/catalina-timed.xml"
 	install -Dm644 catalina.xml "${pkgdir}/usr/share/gnome-background-properties/catalina.xml"
  }
