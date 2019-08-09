@@ -7,7 +7,7 @@ For KDE, it's a Azimuth Elevation wallpaper based on real Azimuth Elevation of t
 
 
 <p align="center">
-  <img width="478" height="326" src="gnome-kde-catalina-dynamic-wallpaper.gif">
+  <img width="478" height="326" src="gnome-kde-dynamic-wallpaper-catalina.gif">
 </p>
 
 
