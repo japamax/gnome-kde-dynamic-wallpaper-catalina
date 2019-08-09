@@ -43,38 +43,4 @@
       "filename": "catalina_dynamic-2100.jpg"
     }
   ]
-  "images": [
-      {
-        "filename": "",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-0600.jpg",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-0900.jpg",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-1200.jpg",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-1500.jpg",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-1800.jpg",
-        "duration": "10800.0"
-      },
-      {
-        "filename": "catalina_dynamic-2100.jpg",
-        "duration": "10800.0"
-      }
-    ],
 }
