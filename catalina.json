@@ -3,43 +3,43 @@
   "preview": "catalina_dynamic-0600.jpg",
     "images": [
     {
-      "azimuth": 2.73,
-      "elevation": -45.17,
+      "elevation": -48.01,
+      "azimuth": -31.12,
       "filename": "catalina_dynamic-0000.jpg"
     },
     {
-      "azimuth": 56.83,
-      "elevation": -24.75,
+      "elevation": -47.64,
+      "azimuth": 31.93,
       "filename": "catalina_dynamic-0300.jpg"
     },
     {
-      "azimuth": 92.15,
-      "elevation": 0.98,
+      "elevation": -14.56,
+      "azimuth": 61.40,
       "filename": "catalina_dynamic-0600.jpg"
     },
     {
-      "azimuth": 128.26,
-      "elevation": 29.67,
+      "elevation": 25.76,
+      "azimuth": 69.81,
       "filename": "catalina_dynamic-0900.jpg"
     },
     {
-      "azimuth": 182.68,
-      "elevation": 43.0,
+      "elevation": 66.32,
+      "azimuth": 59.51,
       "filename": "catalina_dynamic-1200.jpg"
     },
     {
-      "azimuth": 235.51,
-      "elevation": 27.56,
+      "elevation": 65.76,
+      "azimuth": -60.10,
       "filename": "catalina_dynamic-1500.jpg"
     },
     {
-      "azimuth": 270.81,
-      "elevation": -1.41,
+      "elevation": 25.15,
+      "azimuth": -69.67,
       "filename": "catalina_dynamic-1800.jpg"
     },
     {
-      "azimuth": 307.09,
-      "elevation": -31.25,
+      "elevation": -15.13,
+      "azimuth": -61.67,
       "filename": "catalina_dynamic-2100.jpg"
     }
   ]
