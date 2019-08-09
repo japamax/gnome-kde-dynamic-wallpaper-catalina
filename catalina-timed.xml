@@ -88,7 +88,7 @@
 
 	<static>
 		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-2100.jpg</file>
-		<duration>9199.0</duration>
+		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
@@ -97,5 +97,4 @@
 		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-000.jpg</to>
 	</transition>
 </background>
-
 
