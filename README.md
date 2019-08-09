@@ -40,12 +40,12 @@ makepkg -si
 ## Users of other distros
 Users of other distros can manually complete these 5 steps:
 
-1) Copy `catalina` directory from this repo  to `/usr/share/dynamicwallpapers` and make it readable by running the following as the root user:
+1) Copy `catalina` directory from this repo  to `/usr/share/dynamicwallpapers/catalina/images` and make it readable by running the following as the root user:
 ```
-mkdir -p /usr/share/dynamicwallpapers && 
-cp -R catalina /usr/share/dynamicwallpapers && 
-chmod 755 /usr/share/dynamicwallpapers/catalina && 
-chmod 644 /usr/share/dynamicwallpapers/catalina/*
+mkdir -p /usr/share/dynamicwallpapers/catalina/images && 
+cp catalina/* /usr/share/dynamicwallpapers/catalina/images && 
+chmod 755 /usr/share/dynamicwallpapers/catalina/images && 
+chmod 644 /usr/share/dynamicwallpapers/catalina/images/*
 ```
 
 2) Link `catalina` directory from `/usr/share/dynamicwallpapers` to `/usr/share/backgrounds/gnome` by running the following as the root user:
