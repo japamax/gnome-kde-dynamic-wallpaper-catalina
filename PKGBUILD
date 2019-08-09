@@ -4,16 +4,16 @@ pkgbase='catalina-dynamic-wallpaper'
 pkgname=("${pkgbase}-timed-gnome" "${pkgbase}-kde" "${pkgbase}-images" )
 _gitname='gnome-kde-catalina-dynamic-wallpaper'
 pkgver=1.0
-pkgrel=7
+pkgrel=8
 arch=('any')
 url="https://github.com/japamax/${_gitname}"
 source=("git+https://github.com/japamax/${_gitname}")
 sha256sums=('SKIP')
 
-#pkgver() {
-#  cd $_gitname
-#  git describe --tags --long | sed -r 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
-#}
+pkgver() {
+  cd $_gitname
+  git describe --tags --long | sed -r 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
+}
 
  package_catalina-dynamic-wallpaper-images() {
 	cd "${srcdir}/${_gitname}"
