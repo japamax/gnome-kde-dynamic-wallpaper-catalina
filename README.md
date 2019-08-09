@@ -64,7 +64,6 @@ chmod 644 /usr/share/dynamicwallpapers/catalina/metadata.json
 cp catalina-timed.xml /usr/share/backgrounds/gnome/catalina-timed.xml && 
 chmod 644 /usr/share/backgrounds/gnome/catalina-timed.xml
 ```
-
 5) Copy `catalina.xml` from this repo  to `/usr/share/gnome-background-properties` and make it readable by running the following as the root user:
 ```
 mkdir -p /usr/share/gnome-background-properties && 
