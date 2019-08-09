@@ -22,7 +22,7 @@ For KDE, it's a Azimuth Elevation wallpaper based on real Azimuth Elevation of t
 
 # Parameters
 ## Gnome
-None
+None but you must sync your system clock time (presented both in local time and UTC) as well as the RTC (hardware clock).
 ## KDE
 Select "Dynamic" wallpaper type, put your real coordinates and your timer.
 
