@@ -4,7 +4,7 @@ pkgbase='dynamic-wallpaper-catalina'
 pkgname=("${pkgbase}-timed-gnome-git" "${pkgbase}-kde-git" "${pkgbase}-images-git" )
 _gitname='gnome-kde-dynamic-wallpaper-catalina'
 pkgver=1.0
-pkgrel=21
+pkgrel=22
 arch=('any')
 url="https://github.com/japamax/${_gitname}"
 source=("git+https://github.com/japamax/${_gitname}")
@@ -24,7 +24,7 @@ pkgver() {
 
  package_dynamic-wallpaper-catalina-timed-gnome-git() {
 	depends=(gnome-shell gnome-backgrounds dynamic-wallpaper-catalina-images-git)
-	pkgdesc="GNOME time based macOS Catalina wallpaper with real scheludes"
+	pkgdesc="Time based GNOME macOS Catalina wallpaper with real scheludes"
 	install=dynamic-wallpaper-catalina-timed-gnome-git.install
 	cd "${srcdir}/${_gitname}"
 	install -dm755 "${pkgdir}/usr/share/backgrounds/gnome"
@@ -35,7 +35,7 @@ pkgver() {
  
  package_dynamic-wallpaper-catalina-kde-git() {
 	depends=(plasma5-wallpapers-dynamic dynamic-wallpaper-catalina-images-git)
-	pkgdesc="KDE Azimuth Elevation based macOS Catalina wallpaper"
+	pkgdesc="Azimuth Elevation based KDE macOS Catalina wallpaper"
 	install=dynamic-wallpaper-catalina-kde-git.install
 	cd "${srcdir}/${_gitname}"
 	install -Dm644 catalina.json "${pkgdir}/usr/share/dynamicwallpapers/catalina/metadata.json"
