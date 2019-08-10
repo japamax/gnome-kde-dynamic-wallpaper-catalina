@@ -1,10 +1,10 @@
 # Maintainer: Christophe LAVIE <christophe.lavie@laposte.net>
 
 pkgbase='dynamic-wallpaper-catalina'
-pkgname=("${pkgbase}-timed-gnome" "${pkgbase}-kde" "${pkgbase}-images" )
+pkgname=("${pkgbase}-timed-gnome-git" "${pkgbase}-kde-git" "${pkgbase}-images-git" )
 _gitname='gnome-kde-dynamic-wallpaper-catalina'
 pkgver=1.0
-pkgrel=18
+pkgrel=19
 install=gnome-kde-dynamic-wallpaper-catalina.install
 arch=('any')
 url="https://github.com/japamax/${_gitname}"
@@ -16,14 +16,14 @@ pkgver() {
   git describe --tags --long | sed -r 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
- package_dynamic-wallpaper-catalina-images() {
+ package_dynamic-wallpaper-catalina-images-git() {
 	cd "${srcdir}/${_gitname}"
 	install -dm755 "${pkgdir}/usr/share/dynamicwallpapers/catalina/images"
 	install -m644 ${srcdir}/${_gitname}/catalina/* "${pkgdir}/usr/share/dynamicwallpapers/catalina/images"
 }
 
- package_dynamic-wallpaper-catalina-timed-gnome() {
-	depends=(gnome-shell gnome-backgrounds dynamic-wallpaper-catalina-images)
+ package_dynamic-wallpaper-catalina-timed-gnome-git() {
+	depends=(gnome-shell gnome-backgrounds dynamic-wallpaper-catalina-images-git)
 	pkgdesc="GNOME time based Catalina wallpaper with real scheludes"
 	cd "${srcdir}/${_gitname}"
 	install -dm755 "${pkgdir}/usr/share/backgrounds/gnome"
@@ -32,8 +32,8 @@ pkgver() {
 	install -Dm644 catalina.xml "${pkgdir}/usr/share/gnome-background-properties/catalina.xml"
  }
  
- package_dynamic-wallpaper-catalina-kde() {
-	depends=(plasma5-wallpapers-dynamic dynamic-wallpaper-catalina-images)
+ package_dynamic-wallpaper-catalina-kde-git() {
+	depends=(plasma5-wallpapers-dynamic dynamic-wallpaper-catalina-images-git)
 	pkgdesc="KDE Azimuth Elevation based Catalina wallpaper"
 	cd "${srcdir}/${_gitname}"
 	install -Dm644 catalina.json "${pkgdir}/usr/share/dynamicwallpapers/catalina/metadata.json"
