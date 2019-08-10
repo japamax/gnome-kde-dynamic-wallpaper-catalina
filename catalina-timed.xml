@@ -10,90 +10,90 @@
 	</starttime>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0000.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0000.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0000.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0300.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0000.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0300.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0300.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0300.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0300.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0600.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0300.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0600.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0600.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0600.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0600.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0900.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0600.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0900.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0900.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0900.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-0900.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1200.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0900.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1200.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1200.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1200.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1200.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1500.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1200.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1500.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1500.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1500.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1500.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1800.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1500.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1800.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1800.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1800.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-1800.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-2100.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-1800.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-2100.jpg</to>
 	</transition>
 
 	<static>
-		<file>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-2100.jpg</file>
+		<file>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-2100.jpg</file>
 		<duration>5400.0</duration>
 	</static>
 
 	<transition type="overlay">
 		<duration>5400.0</duration>
-		<from>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-2100.jpg</from>
-		<to>/usr/share/backgrounds/gnome/catalina/catalina_dynamic-000.jpg</to>
+		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-2100.jpg</from>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-000.jpg</to>
 	</transition>
 </background>

@@ -48,9 +48,10 @@ chmod 755 /usr/share/dynamicwallpapers/catalina/images &&
 chmod 644 /usr/share/dynamicwallpapers/catalina/images/*
 ```
 
-2) Link `catalina` directory from `/usr/share/dynamicwallpapers` to `/usr/share/backgrounds/gnome` by running the following as the root user:
+2) Link `catalina` directory from `/usr/share/dynamicwallpapers` to `/usr/share/backgrounds/macOS` by running the following as the root user:
 ```
-ln -s /usr/share/dynamicwallpapers/catalina/Images /usr/share/backgrounds/gnome/catalina
+mkdir -p /usr/share/backgrounds/macOS &&
+ln -s /usr/share/dynamicwallpapers/catalina/Images /usr/share/backgrounds/macOS/catalina
 ```
 
 3) Copy `catalina.json` from this repo  to `/usr/share/dynamicwallpapers/catalina/metadata.json` and make it readable by running the following as the root user:
@@ -59,10 +60,10 @@ cp catalina.json /usr/share/dynamicwallpapers/catalina/metadata.json &&
 chmod 644 /usr/share/dynamicwallpapers/catalina/metadata.json
 ```
 
-4) Copy `catalina-timed.xml` from this repo  to `/usr/share/backgrounds/gnome` and make it readable by running the following as the root user:
+4) Copy `catalina-timed.xml` from this repo  to `/usr/share/backgrounds/macOS` and make it readable by running the following as the root user:
 ```
-cp catalina-timed.xml /usr/share/backgrounds/gnome/catalina-timed.xml && 
-chmod 644 /usr/share/backgrounds/gnome/catalina-timed.xml
+cp catalina-timed.xml /usr/share/backgrounds/macOS/catalina-timed.xml && 
+chmod 644 /usr/share/backgrounds/macOS/catalina-timed.xml
 ```
 5) Copy `catalina.xml` from this repo  to `/usr/share/gnome-background-properties` and make it readable by running the following as the root user:
 ```
