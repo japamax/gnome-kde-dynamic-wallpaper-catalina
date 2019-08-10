@@ -1,4 +1,4 @@
-# Gnome time based Catalina wallpaper with real scheludes</br>& KDE Azimuth Elevation based Catalina wallpaper
+# Time based GNOME macOS Catalina wallpaper with real scheludes</br>& Azimuth Elevation based KDE macOS Catalina wallpaper
 
 Catalina dynamic wallpaper is 8 based images wallpaper.</br>
 Catalina dynamic wallpaper is useable as Gnome/KDE background which changes during the day/night.</br>
