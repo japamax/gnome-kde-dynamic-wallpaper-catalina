@@ -94,6 +94,6 @@
 	<transition type="overlay">
 		<duration>5400.0</duration>
 		<from>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-2100.jpg</from>
-		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-000.jpg</to>
+		<to>/usr/share/backgrounds/macOS/catalina/catalina_dynamic-0000.jpg</to>
 	</transition>
 </background>
