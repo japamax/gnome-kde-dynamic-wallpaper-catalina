@@ -2,9 +2,10 @@
 
 pkgbase='dynamic-wallpaper-catalina'
 pkgname=("${pkgbase}-timed-gnome" "${pkgbase}-kde" "${pkgbase}-images" )
-_gitname='gnome-kde-catalina-dynamic-wallpaper'
-pkgver=1.0.r17.gb6e108b
+_gitname='gnome-kde-dynamic-wallpaper-catalina'
+pkgver=1.0r17.r0.ga3ebc35
 pkgrel=1
+install=gnome-kde-dynamic-wallpaper-catalina.install
 arch=('any')
 url="https://github.com/japamax/${_gitname}"
 source=("git+https://github.com/japamax/${_gitname}")
