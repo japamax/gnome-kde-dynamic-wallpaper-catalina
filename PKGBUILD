@@ -40,4 +40,4 @@ pkgver() {
 	cd "${srcdir}/${_gitname}"
 	install -Dm644 catalina.json "${pkgdir}/usr/share/dynamicwallpapers/catalina/metadata.json"
  }
- 
+
