@@ -34,8 +34,8 @@ pkgver() {
  }
  
  package_dynamic-wallpaper-catalina-kde-git() {
-	depends=(plasma5-wallpapers-dynamic dynamic-wallpaper-catalina-images-git)
-	pkgdesc="Azimuth Elevation based KDE macOS Catalina wallpaper"
+	depends=('plasma5-wallpapers-dynamic>=2.3' dynamic-wallpaper-catalina-images-git)
+	pkgdesc="Azimuth Elevation based / Time based KDE macOS Catalina wallpaper"
 	install=dynamic-wallpaper-catalina-kde-git.install
 	cd "${srcdir}/${_gitname}"
 	install -dm755 "${pkgdir}/usr/share/dynamicwallpapers/catalina-timed/contents"
