@@ -1,0 +1,59 @@
+{
+   "KPlugin": {
+          "Authors": [
+              {
+                  "Email": "christophe.lavie@laposte.net",
+                  "Name": "Christophe LAVIE"
+              }
+          ],
+          "Id": "catalina-solar",
+          "License": "LGPLv3",
+          "Name": "Catalina Solar Dynamic Wallpaper"
+   },
+   "Wallpaper": {
+     "Preview": "catalina_dynamic-0600.jpg",
+     "Type": "solar",    
+     "MetaData": [    
+      {
+        "Elevation": -48.01,
+        "Azimuth": -31.12,
+        "FileName": "catalina_dynamic-0000.jpg"
+      },
+      {
+        "Elevation": -47.64,
+        "Azimuth": 31.93,
+        "FileName": "catalina_dynamic-0300.jpg"
+      },
+      {
+        "Elevation": -14.56,
+        "Azimuth": 61.40,
+        "FileName": "catalina_dynamic-0600.jpg"
+      },
+      {
+        "Elevation": 25.76,
+        "Azimuth": 69.81,
+        "FileName": "catalina_dynamic-0900.jpg"
+      },
+      {
+        "Elevation": 66.32,
+        "Azimuth": 59.51,
+        "FileName": "catalina_dynamic-1200.jpg"
+      },
+      {
+        "Elevation": 65.76,
+        "Azimuth": -60.10,
+        "FileName": "catalina_dynamic-1500.jpg"
+      },
+      {
+        "Elevation": 25.15,
+        "Azimuth": -69.67,
+        "FileName": "catalina_dynamic-1800.jpg"
+      },
+      {
+        "Elevation": -15.13,
+        "Azimuth": -61.67,
+        "FileName": "catalina_dynamic-2100.jpg"
+      }
+    ]
+  }
+}

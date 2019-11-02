@@ -1,0 +1,51 @@
+{
+   "KPlugin": {
+          "Authors": [
+              {
+                  "Email": "christophe.lavie@laposte.net",
+                  "Name": "Christophe LAVIE"
+              }
+          ],
+          "Id": "catalina-timed",
+          "License": "LGPLv3",
+          "Name": "Catalina Timed Dynamic Wallpaper"
+   },
+   "Wallpaper": {
+     "Preview": "catalina_dynamic-0600.jpg",
+     "Type": "timed",    
+     "MetaData": [    
+      {
+		"Time": 0,
+        "FileName": "catalina_dynamic-0000.jpg"
+      },
+      {
+		"Time": 0.125,
+        "FileName": "catalina_dynamic-0300.jpg"
+      },
+      {
+		"Time": 0.250,
+        "FileName": "catalina_dynamic-0600.jpg"
+      },
+      {
+		"Time": 0.375,
+        "FileName": "catalina_dynamic-0900.jpg"
+      },
+      {
+		"Time": 0.500,
+        "FileName": "catalina_dynamic-1200.jpg"
+      },
+      {
+		"Time": 0.625,
+        "FileName": "catalina_dynamic-1500.jpg"
+      },
+      {
+		"Time": 0.750,
+        "FileName": "catalina_dynamic-1800.jpg"
+      },
+      {
+		"Time": 0.875,
+        "FileName": "catalina_dynamic-2100.jpg"
+      }
+    ]
+  }
+}
