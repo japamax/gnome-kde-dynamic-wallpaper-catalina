@@ -3,7 +3,7 @@
 Catalina dynamic wallpaper is 8 based images wallpaper.</br>
 Catalina dynamic wallpaper is useable as Gnome/KDE background which changes during the day/night.</br>
 For Gnome, it's a timed based wallpaper with real scheludes with 90 minutes transitions.</br>
-For KDE, the 1st version is a Azimuth Elevation wallpaper based on real Azimuth Elevation of the Sun for the Catalina island on 21/06/2019.</br></br>
+For KDE, the 1st version is a Azimuth Elevation wallpaper based on real Azimuth Elevation of the Sun for the Catalina island on 21/06/2019.</br>
 For KDE, the 2nd version is  a timed based wallpaper with real scheludes.</br></br>
 
 
